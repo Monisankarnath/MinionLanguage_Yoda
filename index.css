@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+textarea{
+    height: 80px;
+    width: 250px;
+}
+body{
+    background: linear-gradient(to bottom,rgb(17, 150, 202),rgb(78, 230, 209));
+}
+.container{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    width: 90vw;
+}
+button{
+    height: 30px;
+    width: 60px;
+    border-radius: 40%;
+    font-family: monospace;
+    font-weight: bold;
+    background: mediumorchid;
+    color: mintcream;
+    cursor: pointer;
+}
+button:hover{
+    background:orange;
+    color: black;
+}
